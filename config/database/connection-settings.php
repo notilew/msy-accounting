@@ -7,7 +7,7 @@
  */
 
 # definindo constante com o nome da base de dados da contabilidade MSY
-define('DB_NAME', 'msy-accounting');
+define('DB_NAME', 'msy_accounting');
 
 # definindo constante com o nome do usuário do SGBD MYSQL
 define('DB_USER', 'root');
