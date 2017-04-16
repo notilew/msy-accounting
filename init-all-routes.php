@@ -9,6 +9,9 @@
 # importando script php que define as constantes com as rotas principais da aplicação
 require_once 'routes/main-paths.php';
 
+# importando script php que define as constantes com as rotas da pasta templates/
+require_once 'routes/folder-templates.php';
+
 # habilitando todas as exibições de erros
 ini_set('display_errors', true);
 
