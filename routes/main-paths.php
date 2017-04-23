@@ -16,8 +16,8 @@ if (! defined('BASE_URL'))
 
 # caso não tenha sido definida, defina a constante com a rota do script php de configurações para conexão com o SGBD MYSQL
 if (! defined('CONNECTION_SETTINGS_PATH'))
-  define('CONNECTION_SETTINGS_PATH', ABS_PATH . 'config/database/connection-settings.php');
+  define('CONNECTION_SETTINGS_PATH', ABS_PATH . 'app/requires/database/config/connection-settings.php');
 
 # caso não tenha sido definida, defina a constante com a rota do script php de conexão com a base de dados da contabilidade MSY
 if (! defined('CONNECTION_PATH'))
-  define('CONNECTION_PATH', ABS_PATH . 'app/requires/database/connection.php');
+  define('CONNECTION_PATH', ABS_PATH . 'app/requires/database/connection/connection.php');
