@@ -3,7 +3,7 @@
 <?php require CONNECTION_SETTINGS_PATH; ?>
 <?php require CONNECTION_PATH; ?>
 
-<?php include (HEADER_TEMPLATE); ?>
+<?php include HEADER_TEMPLATE; ?>
 
 <?php $db = open_database(); ?>
 
@@ -50,4 +50,4 @@
 
 <?php endif; ?>
 
-<?php include (FOOTER_TEMPLATE); ?>
+<?php include FOOTER_TEMPLATE; ?>
